@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Fingertip Messenger</string>
+    <string name="title_login">Login</string>
+    <string name="hint_username_login">Username...</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_send">Send</string>
+    <string name="emptyString" />
+    <string name="fingertip_username">username</string>
+    <string name="option_menu_2">Logout</string>
+    <string name="option_menu_1">Set IP address</string>
+    <string name="option_menu_3">About Fingertip</string>
+    <string name="btn_ip">Set IP Address</string>
+    <string name="fingertip_ip">ip</string>
+    <string name="dot">.</string>
+    <string name="title_navbar1">Online Friends</string>
+    <string name="title_navbar2">Chatroom</string>
+    <string name="title_navbar3">Message</string>
+    <string name="title_chatroom">Chat Room</string>
+    <string name="fingertip_defaultIP">10.0.2.2</string>
+    <string name="option_menu_4">BottomNavBar</string>
+    <string name="chat_menu_1">Top chatters</string>
+    <string name="chat_menu_2">Online friends</string>
+    <string name="dialog_logout">Logout</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_logout_message">You are about to log out chat room.</string>
+    <string name="option_menu_5">TabbedAct</string>
+    <string name="title_activity_tabbed">TabbedAct</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

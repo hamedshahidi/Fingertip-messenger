@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/tv_msg_in_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/mukta_vaani_extralight"
+        android:text="John Doe"
+        android:textColor="@color/tabDisable"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/tv_msg_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/msg_in_bubble"
+        android:elevation="5dp"
+        android:fontFamily="@font/mukta_vaani_extralight"
+        android:maxWidth="240dp"
+        android:maxLines="20"
+        android:padding="15dp"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_msg_in_username"
+        tools:text="this is a message" />
+
+    <TextView
+        android:id="@+id/tv_msg_in_time"
+        android:text="12:00 PM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/tv_msg_in"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_msg_in"
+        android:fontFamily="@font/rancho"/>
+
+</android.support.constraint.ConstraintLayout>

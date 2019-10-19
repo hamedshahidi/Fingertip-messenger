@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#001ec8</color>
+    <color name="colorBg">#afbbff</color>
+    <color name="colorPrimaryDark">#c9c9c9</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="tabEnable">#001ec8</color>
+    <color name="buttonBorder1">#b8b7b7</color>
+    <color name="tabDisable">#4b4a4a</color>
+    <color name="transparent">#00ffffff</color>
+</resources>
